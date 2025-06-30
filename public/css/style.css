@@ -76,21 +76,21 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
-  border-color: rgba(231, 231, 231, 0);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  border-color: transparent;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #f1ebeb;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #e7e4e4;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -206,9 +206,10 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
+  height: 100%;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/woz/wozkite.jpeg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -216,7 +217,7 @@ a:focus,
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  /* background: rgba(0, 0, 0, 0.2); */
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -240,7 +241,7 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 300px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -604,3 +605,7 @@ label {
     margin: 50px 0;
   }
 }
+
+
+
+
