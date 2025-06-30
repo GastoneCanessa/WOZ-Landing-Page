@@ -1,14 +1,16 @@
 import { Navigation } from "./navigation";
 import React from "react";
 import { TypewriterText } from "./TypewriterText";
+import { CalendlyPopup } from "./CalendlyPopup";
+
 
 export const Header = (props) => {
-  
-  const titles = ["Surf", "Wing Foil", "Kite Surf", "Sup", "Pump Foil", "Surf Skate"];
+
+  const titles = ["Surf", "Wing Foil", "Kite Surf", "Sup", "Pump Foil", "Surf Skate", "eFoil"];
 
   return (
     <header id="header">
-      
+
       <div className="intro">
         <video autoPlay muted loop playsInline className="background-video">
           <source src="https://videos.pexels.com/video-files/32583203/13893873_2560_1440_24fps.mp4" type="video/mp4" />
@@ -35,6 +37,16 @@ export const Header = (props) => {
                 </a>{" "} */}
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="introtwo">
+        <div className="introtwo-content">
+          <div className="introtwo-text">
+            <h2>Prenota ora, non perdere l’occasione di vivere un’esperienza unica!</h2>
+          </div>
+          <div className="introtwo-button">
+            <CalendlyPopup />
           </div>
         </div>
       </div>
