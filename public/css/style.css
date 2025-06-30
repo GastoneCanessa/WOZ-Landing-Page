@@ -245,6 +245,17 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 42px; /* o un valore che sta su una riga su mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .intro h1 {
+    font-size: 32px;
+  }
+}
 /* Features Section */
 #features {
   background: #f6f6f6;
