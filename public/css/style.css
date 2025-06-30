@@ -247,13 +247,19 @@ header .intro-text {
 }
 @media (max-width: 768px) {
   .intro h1 {
-    font-size: 42px; /* o un valore che sta su una riga su mobile */
+    font-size: 52px; /* o un valore che sta su una riga su mobile */
+  }
+  header .intro-text {
+    padding-top: 200px;
   }
 }
 
 @media (max-width: 480px) {
   .intro h1 {
-    font-size: 32px;
+    font-size: 42px;
+  }
+  header .intro-text {
+    padding-top: 250px;
   }
 }
 /* Features Section */
