@@ -115,6 +115,7 @@ hr {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
+  border: transparent;
 }
 .navbar-default .navbar-nav > .active > a:after,
 .navbar-default .navbar-nav > .active > a:hover:after,
@@ -130,15 +131,19 @@ hr {
   transition: width 0.2s !important;
 }
 .navbar-toggle {
-  border-radius: 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.navbar-default .navbar-toggle > .icon-bar {
+  background-color: #eff1f6;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fff;
-  border-color: #608dfd;
+  background-color: transparent
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #c7c8cc;
 }
 .section-title {
   margin-bottom: 70px;
