@@ -280,34 +280,6 @@ a:focus,
   gap: 2rem;
 }
 
-/* 🔽 Layout mobile: stack in colonna */
-@media (max-width: 768px) {
-  .intro {
-    height: 85vh;
-  }
-
-  .introtwo {
-    height: 15vh;
-  }
-
-  .introtwo-content {
-    flex-direction: column;
-    height: auto;
-    /* serve per evitare che tutto resti in 10vh */
-    padding: 1rem 0;
-  }
-
-  .introtwo-text {
-    text-align: center;
-  }
-
-  .introtwo-text h2 {
-    font-size: 1rem;
-    margin: 0;
-    color: white;
-  }
-}
-
 .introtwo-text h2 {
   font-size: 2rem;
   margin: 0;
@@ -420,6 +392,46 @@ header .intro-text {
 
   header .intro-text {
     padding-top: 30vh;
+  }
+}
+
+/* 🔽 Layout mobile: stack in colonna */
+@media (max-width: 768px) {
+  .intro {
+    height: 85vh;
+  }
+
+  .introtwo {
+    height: 15vh;
+  }
+
+  .introtwo-content {
+    flex-direction: column;
+    height: auto;
+    /* serve per evitare che tutto resti in 10vh */
+    padding: 1rem 0;
+  }
+
+  .introtwo-text {
+    text-align: center;
+  }
+
+  .introtwo-text h2 {
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+  }
+
+  .introtwo-text p {
+    font-size: 0.9rem;
+    color: white;
+    margin: 0;
+  }
+
+  .calendly-custom-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
   }
 }
 
