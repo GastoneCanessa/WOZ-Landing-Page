@@ -398,7 +398,7 @@ header .intro-text {
 /* 🔽 Layout mobile: stack in colonna */
 @media (max-width: 768px) {
   .intro {
-    height: 75vh;
+    height: 80vh;
   }
 
   .introtwo {
