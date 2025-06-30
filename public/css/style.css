@@ -210,7 +210,13 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* display: table;
   height: 100%;
   width: 100%;
   padding: 0;
@@ -219,8 +225,19 @@ a:focus,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
 }
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
 .intro .overlay {
   /* background: rgba(0, 0, 0, 0.2); */
 }
@@ -245,10 +262,18 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+header .intro-container {
+  padding-top: 30vh;
+  padding-bottom: 200px;
+  text-align: center;
+}
 header .intro-text {
   padding-top: 30vh;
   padding-bottom: 200px;
   text-align: center;
+}
+.blinking-cursor {
+  color: white !important;
 }
 @media (max-width: 768px) {
   .intro h1 {

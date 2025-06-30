@@ -10,6 +10,10 @@ export const Header = (props) => {
     <header id="header">
       
       <div className="intro">
+        <video autoPlay muted loop playsInline className="background-video">
+          <source src="https://videos.pexels.com/video-files/32583203/13893873_2560_1440_24fps.mp4" type="video/mp4" />
+          Il tuo browser non supporta il video HTML5.
+        </video>
         <Navigation />
         <div className="overlay">
           <div className="container">
